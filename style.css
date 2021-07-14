@@ -128,7 +128,7 @@ span {
 }
 .estilo h1{
     font-family: 'Yomogi', cursive !important;
-    height: 25vh;
+    height: 15vh;
 }
 .sobre-mi {
     background: #F4F1DE;  /* fallback for old browsers */
@@ -155,7 +155,7 @@ span {
     align-items: center;
     justify-content: center;
 }
-ol, ul {
+ol, ul, p {
     font-size: 1.5rem;
     list-style-type: none;
     padding-left: 0;
