@@ -42,9 +42,10 @@ h2, h3, h4 {
     justify-content: center;
     align-items: center;
 }
-.hidden {
+.wavehidden {
     overflow: hidden;
     fill: #81B29A;
+    height: 100vh;
 }
 .ola {
     height: 100%; 
@@ -53,9 +54,6 @@ h2, h3, h4 {
 @media (min-width: 0px) and (max-width: 576px) {
     .intro {
         width: 100vw;
-        height: 100vh;
-    }
-    .hidden {
         height: 100vh;
     }
     .pres {
@@ -71,9 +69,12 @@ h2, h3, h4 {
     display: block !important;
     }
     img {
-        padding: 2%;
+    padding: 2%;
     }
+    .imagen-xs {
+    width: 100%;
     }
+}
 @media (min-width: 576px) and (max-width: 768px) {
     .organize {
     padding-left: 100px;
