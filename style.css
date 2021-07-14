@@ -69,18 +69,17 @@ h2, h3, h4 {
     }
     .container, .row, .pres {
     display: block !important;
-    width: 100vw !important;
     }
     img {
         padding: 2%;
     }
-    .back {
-        background-image: url(rio.png);
     }
+@media (min-width: 576px) and (max-width: 768px) {
+    .organize {
+    padding-left: 100px;
     }
-    @media (min-width: 576px) and (max-width: 768px) {
     .pres {
-    color: #fb4c64;
+    color: black;
     }
     .container {
     display: block;
