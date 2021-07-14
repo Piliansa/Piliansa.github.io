@@ -79,12 +79,18 @@ h2, h3, h4 {
     }
     }
     @media (min-width: 576px) and (max-width: 768px) {
+    .pres {
+    color: #fb4c64;
+    }
     .container {
     display: block;
     position: absolute;
         }
     .footer {
     text-align: center !important;
+    }
+    .wave {
+        width: auto;
     }
 }
 span {
@@ -95,6 +101,7 @@ span {
     margin-left: 5rem;
     margin-right: auto;
     overflow: hidden;
+    z-index: 4;
 }
 .index {
     z-index: 3;
