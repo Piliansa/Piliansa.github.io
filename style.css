@@ -168,7 +168,7 @@ footer {
 a {
     text-decoration: none;
 }
-/* RESPONSIVE */
+/* === TAMAÑOS === */
 @media (min-width: 0px) and (max-width: 576px) {
     .intro {
     width: 100vw;
