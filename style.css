@@ -88,6 +88,7 @@ h2, h3, h4 {
         }
     .footer {
     text-align: center !important;
+    height: 50%;
     }
     .wave {
         width: auto;
